@@ -46,7 +46,7 @@ playwright install
 cd web-ui
 curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv --python 3.11
-source .venv/bin/activate
+.venv\Scripts\activate
 uv pip install -r requirements.txt
 ```
 
@@ -78,9 +78,21 @@ Paste your API key into the web UI when prompted.
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshots
 
-_Add screenshots or a GIF of the working agent UI in action here._
+### ✅ Agent Executing a Google Search Task
+
+**Step 1**: Agent receives task and sends instruction
+
+![Task Input](ai-agent-2.png)
+
+**Step 2**: Agent opens Google and types the query
+
+![Google Query](ai-agent-1.png)
+
+**Step 3**: Agent completes the task and shows result
+
+![Result Page](ai-agent-3.png)
 
 ---
 
